@@ -1,0 +1,49 @@
+/*--------------------
+ main part style start 
+ ----------------------*/
+ main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+}
+
+.player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 330px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.15);
+}
+
+.player-image img {
+    width: 100%;
+    height: 256px;
+}
+
+
+.player-name {
+    font-weight: bold;
+    font-size: 28px;
+    color: #18191F;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+.about-player {
+    font-size: 16px;
+    color: #6C6C6C;
+    margin-top: 0px;
+    margin-bottom: 33px;
+}
+
+/*--------------------
+ main part style ends 
+ ----------------------*/

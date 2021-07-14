@@ -17,8 +17,8 @@ body{
     margin-bottom: 70px ;
     padding-left: 50px;
     padding-right: 50px;
-
  }
+
  .copa-america:hover {
      background-color: lightslategrey;
      
@@ -119,6 +119,75 @@ body{
     margin-top: 0px;
     margin-bottom: 33px;
 }
+
+
+
+/*--------------------
+ optional part start 
+ -------------------- */
+.copa-optional {
+    background-color: white;
+    margin-top: 157px;
+}
+
+
+.copa-highlight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px ;
+    padding-left: 50px;
+    padding-right: 50px;
+ }
+
+ .copa-highlight-details {
+    width: 50%;
+    padding: 5%;
+
+ }
+
+ .highlight-title {
+    font-size: 48px;
+      color:  #0A0826;
+      margin-bottom: 8px;
+
+ }
+
+ .copa-description {
+    color: #6C6C6C;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 24px;
+ }
+
+ .copa-highlight-details a {
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500px;
+ }
+
+ .copa-highlight-details a:hover {
+    background-color: rgb(146, 194, 75);
+    border-radius: 10px;
+    color: tomato;
+ }
+
+
+ .highlight-banner img {
+    width: 567px;
+    height: 427px;
+  }
+ 
+/*--------------------
+ optional part end 
+ -------------------- */
+
+
+
+
 
 /*--------------------
  main part style ends 

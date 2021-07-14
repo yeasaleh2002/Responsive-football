@@ -271,6 +271,66 @@ top: 0px;
  -------------------- */
 
 
+	
+ .oragnazations {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-column-gap: 30px;
+   grid-row-gap: 27px;
+}
+
+.oragnazation {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 330px;
+   padding: 15px;
+   border-radius: 10px;
+   box-shadow: 5px 5px 40px gray;
+}
+
+.oragnazation-image img {
+   width: 100%;
+   height: 256px;
+}
+
+
+.oragnazation-name {
+   
+   font-weight: bold;
+   font-size: 28px;
+   color: #18191F;
+   margin-top: 16px;
+   margin-bottom: 10px;
+}
+.oragnazation-info {
+   font-size: 16px;
+   color: #6C6C6C;
+   margin-top: 0px;
+   margin-bottom: 33px;
+}
+
+
+
+
+ /*--------------------
+ extra part-2 style start 
+ -------------------- */
+
+
+
+
+
+
+
+
+
+/*--------------------
+ extra part-2 style end 
+ -------------------- */
+
+
+
 
 
 /*--------------------

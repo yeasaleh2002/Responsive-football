@@ -328,7 +328,7 @@ top: 0px;
     height: 110px;
     margin-bottom: 20px;
  }
- 
+
  .contact {
     display: flex;
     align-items: center;
@@ -342,7 +342,8 @@ top: 0px;
      color: gray;
      margin:  0px 14p;
  }
- 
+
+
  .copyright-text {
     color: #000000;
     margin-top: 20px;
@@ -411,11 +412,7 @@ top: 0px;
    margin-bottom: 150px;
 }
     
- 
  }
- 
- 
- 
  
   
  /* tablet */
@@ -452,17 +449,13 @@ top: 0px;
      .copa-america-banner img, .highlight-banner img {
  
        width: 329px;
-       height: 259.17px;
-     
+       height: 259.17px;     
      }
+
      .copa-optional{
         margin-top: 60px;
      }
-    
-     
-  
   }
-  
   
  
  /* laptop and other device*/
@@ -478,12 +471,8 @@ top: 0px;
     grid-template-columns: repeat(3, 1fr);
    }
    
-  
   }
   
-  
-
-
  
  /* -----------------------
  media responsive style ends

@@ -6,9 +6,22 @@ body{
 /*--------------------
  header part style start 
  ----------------------*/
+ header {
+    background-color:  #2D25A0;
+ }
+
  .copa-america {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px ;
+    padding-left: 50px;
+    padding-right: 50px;
 
-
+ }
+ .copa-america:hover {
+     background-color: lightslategrey;
+     
  }
 
  .copa-america-info {
@@ -17,10 +30,36 @@ body{
     padding: 5%;
   }
 
+  .copa-title {
+      font-size: 64px;
+      color: #FFFFFF;
+      margin-bottom: 27px;
+  }
+
+
+
+  .copa-america-info a {
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500px;
+   
+  }
+
+  .copa-america-info a:hover {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    color: tomato;
+  }
+
+
   .copa-america-banner img {
 
     width: 556.01px;
     height: 438px;
+  
   }
 
 
@@ -100,6 +139,7 @@ body{
  .football-logo img{
     width: 483.87px;
     height: 110px;
+    margin-bottom: 20px;
  }
  .contact {
     display: flex;
@@ -117,6 +157,7 @@ body{
  
  .copyright-text {
     color: #000000;
+    margin-top: 20px;
  }
 
 /*--------------------

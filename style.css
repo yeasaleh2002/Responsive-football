@@ -347,7 +347,7 @@ top: 0px;
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 30px;
+    margin-top: 100px;
  }
  .football-logo img{
     width: 483.87px;
@@ -376,3 +376,163 @@ top: 0px;
 /*--------------------
  footer part style ends 
  ----------------------*/
+
+
+
+
+ /* -----------------------
+ media responsive style starts
+ ------------------------*/
+
+
+/* smart phone */
+
+@media only screen and (max-width: 688px ) {
+  
+   container {
+     width: 100%;
+   
+   }
+  .copa-america-2021, .players, .copa-optional, .club-album, .organizations, .about-football{
+  
+   grid-template-columns: repeat(1, 1fr);
+  }
+  .copa-america, .copa-highlight {
+    flex-direction: column;
+   }
+
+   .copa-title, .highlight-title, .club-heading {
+      font-size: 36px;
+   }
+   .copa-america-info a {
+      text-decoration: none;
+      background-color: #E02C6D;
+      padding: 10px 24px;
+      color: #FFFFFF;
+      font-size: 16px;
+      font-weight: 500px;
+     
+    }
+
+    .live-watch{
+      width: 168px;
+      height: 44px;
+    }
+    .copa-america-banner img, .highlight-banner img {
+
+      width: 329px;
+      height: 259.17px;
+    
+    }
+    .copa-optional{
+       margin-top: 60px;
+    }
+
+ 
+ }
+ 
+ 
+ 
+ 
+  
+ /* tablet */
+ 
+ @media only screen and (min-width: 689px) and (max-width: 992px) {
+   
+   container {
+      width: 100%;
+    
+    }
+   .copa-america-2021, .players, .copa-optional, .club-album, .organizations, .about-football{
+   
+    grid-template-columns: repeat(2, 1fr);
+   }
+   .copa-america, .copa-highlight {
+     flex-direction: column;
+    }
+ 
+    .copa-title, .highlight-title, .club-heading {
+       font-size: 36px;
+    }
+    .copa-america-info a {
+       text-decoration: none;
+       background-color: #E02C6D;
+       padding: 10px 24px;
+       color: #FFFFFF;
+       font-size: 16px;
+       font-weight: 500px;
+      
+     }
+ 
+     .live-watch{
+       width: 168px;
+       height: 44px;
+     }
+     .copa-america-banner img, .highlight-banner img {
+ 
+       width: 329px;
+       height: 259.17px;
+     
+     }
+     .copa-optional{
+        margin-top: 60px;
+     }
+ 
+  
+  }
+  
+  
+ 
+ /* laptop and other device*/
+ 
+ @media only screen and (min-width:1001){
+   
+   container {
+      width: 100%;
+    
+    }
+   .players, .club-album, .organizations, .about-football{
+   
+    grid-template-columns: repeat(3, 1fr);
+   }
+   .copa-america, .copa-highlight {
+     flex-direction: column;
+    }
+ 
+    .copa-title, .highlight-title, .club-heading {
+       font-size: 36px;
+    }
+    .copa-america-info a {
+       text-decoration: none;
+       background-color: #E02C6D;
+       padding: 10px 24px;
+       color: #FFFFFF;
+       font-size: 16px;
+       font-weight: 500px;
+      
+     }
+ 
+     .live-watch{
+       width: 168px;
+       height: 44px;
+     }
+     .copa-america-banner img, .highlight-banner img {
+ 
+       width: 329px;
+       height: 259.17px;
+     
+     }
+     .copa-optional{
+        margin-top: 60px;
+     }
+ 
+  
+  }
+  
+  
+
+
+ 
+ /* -----------------------
+ media responsive style ends
+ ------------------------*/

@@ -1,3 +1,39 @@
+/* body part style */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*--------------------
+ header part style start 
+ ----------------------*/
+ .copa-america {
+
+
+ }
+
+ .copa-america-info {
+
+    width: 50%;
+    padding: 5%;
+  }
+
+  .copa-america-banner img {
+
+    width: 556.01px;
+    height: 438px;
+  }
+
+
+
+
+
+ /*--------------------
+ header part style start 
+ ----------------------*/
+
+
+
+
 /*--------------------
  main part style start 
  ----------------------*/
@@ -31,13 +67,14 @@
 
 
 .player-name {
+    
     font-weight: bold;
     font-size: 28px;
     color: #18191F;
     margin-top: 16px;
     margin-bottom: 10px;
 }
-.about-player {
+.player-info {
     font-size: 16px;
     color: #6C6C6C;
     margin-top: 0px;
@@ -46,4 +83,42 @@
 
 /*--------------------
  main part style ends 
+ ----------------------*/
+
+
+
+
+ /*--------------------
+ footer part style start 
+ ----------------------*/
+ footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+ }
+ .football-logo img{
+    width: 483.87px;
+    height: 110px;
+ }
+ .contact {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+ }
+
+ .contact a {
+     text-decoration: none;
+     font-size: 32px;
+     margin-right: 14px;
+     color: gray;
+     margin:  0px 14p;
+ }
+ 
+ .copyright-text {
+    color: #000000;
+ }
+
+/*--------------------
+ footer part style ends 
  ----------------------*/
